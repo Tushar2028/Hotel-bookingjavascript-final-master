@@ -1,0 +1,84 @@
+.hotels-list {
+    /* margin:2%;
+    width: 40%; */
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+}
+
+.hotels-list > p {
+    margin-left: inherit;
+}
+
+#view-types {
+    /* margin: 0% 45%; */
+}
+
+#list-view-table {
+    width:100%;
+}
+
+td {
+    padding: 35px;
+}
+
+.hotels {
+    height: 150px;
+    width: 150px;;
+}
+
+#captions {
+    float: right;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: black;
+}
+
+.form-inline{
+    margin: 0 auto;
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hotels-list:hover{
+    background-color: rosybrown;
+}
+
+.score {
+    display: block;
+    font-size: 25px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .score-wrap {
+    display: inline-block;
+    position: relative;
+    height: 19px;
+  }
+  
+  .score .stars-active {
+    color: #EEBD01;
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+  }
+  
+  .score .stars-inactive {
+    color: black;
+  /*   position: absolute; */
+    top: 0; 
+    left: 0; 
+  /*   -webkit-text-stroke: initial;  */
+  /*   overflow: hidden; */
+  }
+
+
+
+
+
+

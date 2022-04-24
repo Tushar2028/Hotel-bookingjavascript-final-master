@@ -1,0 +1,143 @@
+.socialmedia {
+    height: 20px;
+    width: 22px;
+}
+
+#logo{
+    height: 60px;
+    width: 60px;
+    align-self: center;
+    margin-left: 1%;
+}
+
+
+html, body{
+    min-height: 100vh;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background-color: #e0e0e0;
+    font-family: 'Ubuntu',sans-serif;
+    color: black;
+}
+
+header,footer{
+    background-color: rosybrown;
+}
+
+#header-div{
+    position: sticky;
+    top:0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#header-div,#footer-div{
+    height: 70px;   
+    display: flex;
+    z-index: 1;
+}
+
+#footer-div {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    margin-top: 150px;
+}
+
+#login-bt {
+    align-self: center;
+    margin-left: auto;
+    margin-right: 2%;
+}
+
+#contact-us {
+    /* display: inline;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px; */
+    align-self: center;
+    margin-left: 2%;
+}
+
+#socialmedia-links{
+    /* display: inline; */
+    /* float: right; */
+    /* margin-top:  25px; */
+    /* margin-right: 20px; */
+    align-self: center;
+    margin-right: 2%;
+}
+
+#copyright {
+    /* display: inline;
+    margin-left: 650px;
+    position: absolute;
+    margin-top: 50px; */
+    align-self: center;
+    margin: 0 auto;
+    font-size: 10px;
+}
+
+a{
+    color: black;
+}
+
+#content-div{
+    /* height: 80vh; */
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+}
+
+#img-wrap {
+    position: relative;
+    height: 150px;
+    width: 150px;
+  }
+
+  #form-ul{
+    list-style-type:none;
+    padding:2%;
+    display:flex;
+    flex-direction:column;
+    /* align-items: stretch; */
+  }
+
+  #form-row{
+    /* width:100%; */
+    /* padding-top:1%;
+    padding-bottom:1%; */
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  #form-row > input{
+    float:right;
+    width:60%;
+  }
+
+  #modal-login-bt,#book-now{
+      margin: 0 auto;
+  }
+
+  #content-div {
+    display: flex;
+}
+
+
+ 
+
+
+
+
+
+
+
